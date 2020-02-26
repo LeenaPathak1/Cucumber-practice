@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22782" started-at="2020-02-21T03:33:41Z" finished-at="2020-02-21T03:34:04Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@239963d8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="22782" started-at="2020-02-21T03:33:41Z" finished-at="2020-02-21T03:34:04Z">
+      <class name="cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@239963d8]" name="setUpClass" is-config="true" duration-ms="181" started-at="2020-02-20T22:33:41Z" finished-at="2020-02-20T22:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@239963d8]" name="feature" duration-ms="22435" started-at="2020-02-20T22:33:41Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-02-20T22:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login to NewTours]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:cucumberOptions.TestRunner@239963d8]" name="setup" is-config="true" duration-ms="21" started-at="2020-02-20T22:34:04Z" finished-at="2020-02-20T22:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@239963d8]" name="tearDownClass" is-config="true" duration-ms="56" started-at="2020-02-20T22:34:04Z" finished-at="2020-02-20T22:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+      <class name="BaseMethods.CommonMethods">
+        <test-method status="PASS" signature="readProperties(java.lang.String)[pri:0, instance:BaseMethods.CommonMethods@13deb50e]" name="readProperties" is-config="true" duration-ms="180" started-at="2020-02-20T22:33:41Z" finished-at="2020-02-20T22:33:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/main/java/QA.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readProperties -->
+      </class> <!-- BaseMethods.CommonMethods -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
