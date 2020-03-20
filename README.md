@@ -1,0 +1,2 @@
+- Automation framework on demo newtours web application, built using Selenium WebDriver API.
+- It uses Page Object Model and TestNG features.
